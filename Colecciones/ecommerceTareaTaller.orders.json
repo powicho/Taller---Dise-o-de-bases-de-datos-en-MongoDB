@@ -1,0 +1,568 @@
+[{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366720"
+  },
+  "orderNumber": "A-10251",
+  "customerId": {
+    "$oid": "670000000000000000000001"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836670b"
+      },
+      "name": "Teclado Mecánico",
+      "price": 750,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Calle Falsa 123",
+    "city": "Ciudad Capital"
+  },
+  "total": 850,
+  "status": "Entregado",
+  "createdAt": {
+    "$date": "2025-08-15T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366721"
+  },
+  "orderNumber": "A-10252",
+  "customerId": {
+    "$oid": "670000000000000000000002"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836670c"
+      },
+      "name": "Mouse Inalámbrico",
+      "price": 250,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Avenida Siempre Viva 456",
+    "city": "Metropolis"
+  },
+  "total": 320.5,
+  "status": "Enviado",
+  "createdAt": {
+    "$date": "2025-08-20T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366722"
+  },
+  "orderNumber": "A-10253",
+  "customerId": {
+    "$oid": "670000000000000000000003"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836670d"
+      },
+      "name": "Monitor Curvo 27''",
+      "price": 2500,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Boulevard de los Sueños 789",
+    "city": "Ciudad Capital"
+  },
+  "total": 2650,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-09-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366723"
+  },
+  "orderNumber": "A-10254",
+  "customerId": {
+    "$oid": "670000000000000000000001"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836670e"
+      },
+      "name": "Webcam HD",
+      "price": 300,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Calle Falsa 123",
+    "city": "Ciudad Capital"
+  },
+  "total": 350,
+  "status": "Entregado",
+  "createdAt": {
+    "$date": "2025-09-05T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366724"
+  },
+  "orderNumber": "A-10255",
+  "customerId": {
+    "$oid": "670000000000000000000004"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836670f"
+      },
+      "name": "Disco SSD 1TB",
+      "price": 800,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Calle Luna 101",
+    "city": "Pueblo Nuevo"
+  },
+  "total": 875,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-09-10T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366725"
+  },
+  "orderNumber": "A-10256",
+  "customerId": {
+    "$oid": "670000000000000000000005"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366710"
+      },
+      "name": "Memoria RAM 16GB",
+      "price": 600,
+      "quantity": 2
+    }
+  ],
+  "shippingDetails": {
+    "address": "Plaza Central 202",
+    "city": "Metropolis"
+  },
+  "total": 1350,
+  "status": "Enviado",
+  "createdAt": {
+    "$date": "2025-09-12T18:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366726"
+  },
+  "orderNumber": "A-10257",
+  "customerId": {
+    "$oid": "670000000000000000000006"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366711"
+      },
+      "name": "Tarjeta Gráfica RTX",
+      "price": 4500,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Ruta del Sol 303",
+    "city": "Ciudad Capital"
+  },
+  "total": 4700,
+  "status": "Cancelado",
+  "createdAt": {
+    "$date": "2025-09-15T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366727"
+  },
+  "orderNumber": "A-10258",
+  "customerId": {
+    "$oid": "670000000000000000000007"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366712"
+      },
+      "name": "Silla Gamer",
+      "price": 2800,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Pasaje de las Flores 404",
+    "city": "Pueblo Nuevo"
+  },
+  "total": 3000,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-10-02T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366728"
+  },
+  "orderNumber": "A-10259",
+  "customerId": {
+    "$oid": "670000000000000000000002"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366713"
+      },
+      "name": "Auriculares Pro",
+      "price": 450,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Avenida Siempre Viva 456",
+    "city": "Metropolis"
+  },
+  "total": 510,
+  "status": "Entregado",
+  "createdAt": {
+    "$date": "2025-10-03T15:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366729"
+  },
+  "orderNumber": "A-10260",
+  "customerId": {
+    "$oid": "670000000000000000000008"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366714"
+      },
+      "name": "Gabinete ATX",
+      "price": 900,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Centro Comercial Norte 505",
+    "city": "Metropolis"
+  },
+  "total": 980,
+  "status": "Enviado",
+  "createdAt": {
+    "$date": "2025-10-04T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd35213836672a"
+  },
+  "orderNumber": "A-10261",
+  "customerId": {
+    "$oid": "670000000000000000000009"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366715"
+      },
+      "name": "Fuente de Poder 750W",
+      "price": 850,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Calle del Rio 606",
+    "city": "Ciudad Capital"
+  },
+  "total": 925,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-10-05T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd35213836672b"
+  },
+  "orderNumber": "A-10262",
+  "customerId": {
+    "$oid": "670000000000000000000010"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366716"
+      },
+      "name": "Procesador Core i7",
+      "price": 3200,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Edificio Central 707",
+    "city": "Metropolis"
+  },
+  "total": 3350,
+  "status": "Entregado",
+  "createdAt": {
+    "$date": "2025-10-06T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd35213836672c"
+  },
+  "orderNumber": "A-10263",
+  "customerId": {
+    "$oid": "670000000000000000000011"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366717"
+      },
+      "name": "Motherboard Z690",
+      "price": 1800,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Colonia Las Palmeras 808",
+    "city": "Pueblo Nuevo"
+  },
+  "total": 1950,
+  "status": "Enviado",
+  "createdAt": {
+    "$date": "2025-10-07T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd35213836672d"
+  },
+  "orderNumber": "A-10264",
+  "customerId": {
+    "$oid": "670000000000000000000012"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366718"
+      },
+      "name": "Cooler CPU",
+      "price": 400,
+      "quantity": 1
+    },
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd352138366719"
+      },
+      "name": "Mousepad XL",
+      "price": 150,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Zona Industrial 909",
+    "city": "Metropolis"
+  },
+  "total": 610,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-10-08T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd35213836672e"
+  },
+  "orderNumber": "A-10265",
+  "customerId": {
+    "$oid": "670000000000000000000013"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836671a"
+      },
+      "name": "Micrófono Condensador",
+      "price": 1100,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Residenciales El Bosque 111",
+    "city": "Ciudad Capital"
+  },
+  "total": 1200,
+  "status": "Cancelado",
+  "createdAt": {
+    "$date": "2025-10-09T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd35213836672f"
+  },
+  "orderNumber": "A-10266",
+  "customerId": {
+    "$oid": "670000000000000000000014"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836671b"
+      },
+      "name": "Escritorio Eléctrico",
+      "price": 3500,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Calle ancha 222",
+    "city": "Pueblo Nuevo"
+  },
+  "total": 3750,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-10-10T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366730"
+  },
+  "orderNumber": "A-10267",
+  "customerId": {
+    "$oid": "670000000000000000000015"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836671c"
+      },
+      "name": "Luz LED RGB",
+      "price": 200,
+      "quantity": 3
+    }
+  ],
+  "shippingDetails": {
+    "address": "Torre Empresarial 333",
+    "city": "Metropolis"
+  },
+  "total": 680,
+  "status": "Entregado",
+  "createdAt": {
+    "$date": "2025-10-11T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366731"
+  },
+  "orderNumber": "A-10268",
+  "customerId": {
+    "$oid": "670000000000000000000016"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836671d"
+      },
+      "name": "Hub USB-C",
+      "price": 450,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Avenida Las Americas 444",
+    "city": "Ciudad Capital"
+  },
+  "total": 500,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-10-12T15:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366732"
+  },
+  "orderNumber": "A-10269",
+  "customerId": {
+    "$oid": "670000000000000000000017"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836671e"
+      },
+      "name": "Set de Cables",
+      "price": 180,
+      "quantity": 1
+    }
+  ],
+  "shippingDetails": {
+    "address": "Calle de los Arboles 555",
+    "city": "Pueblo Nuevo"
+  },
+  "total": 240,
+  "status": "Enviado",
+  "createdAt": {
+    "$date": "2025-10-13T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902cc7bfcfd352138366733"
+  },
+  "orderNumber": "A-10270",
+  "customerId": {
+    "$oid": "670000000000000000000018"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902cc7bfcfd35213836671f"
+      },
+      "name": "Monitor Curvo 27''",
+      "price": 2500,
+      "quantity": 2
+    }
+  ],
+  "shippingDetails": {
+    "address": "Parque Tecnologico 666",
+    "city": "Metropolis"
+  },
+  "total": 5200,
+  "status": "Pagado",
+  "createdAt": {
+    "$date": "2025-10-14T18:00:00.000Z"
+  }
+}]

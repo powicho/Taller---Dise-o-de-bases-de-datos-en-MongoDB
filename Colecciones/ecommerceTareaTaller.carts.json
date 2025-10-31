@@ -1,0 +1,437 @@
+[{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366748"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000001"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366734"
+      },
+      "sku": "AUD-001",
+      "name": "Auriculares Pro",
+      "price": 450,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366749"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000002"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366735"
+      },
+      "sku": "MON-002",
+      "name": "Monitor Curvo 27''",
+      "price": 2500,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd35213836674a"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000003"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366736"
+      },
+      "sku": "CAM-003",
+      "name": "Webcam HD",
+      "price": 300,
+      "quantity": 2
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd35213836674b"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000004"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366737"
+      },
+      "sku": "SSD-004",
+      "name": "Disco SSD 1TB",
+      "price": 800,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd35213836674c"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000005"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366738"
+      },
+      "sku": "RAM-005",
+      "name": "Memoria RAM 16GB",
+      "price": 600,
+      "quantity": 2
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd35213836674d"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000006"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366739"
+      },
+      "sku": "GPU-006",
+      "name": "Tarjeta Gráfica RTX",
+      "price": 4500,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd35213836674e"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000007"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd35213836673a"
+      },
+      "sku": "KBD-001",
+      "name": "Teclado Mecánico",
+      "price": 750,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd35213836674f"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000008"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd35213836673b"
+      },
+      "sku": "MSE-010",
+      "name": "Mouse Inalámbrico",
+      "price": 250,
+      "quantity": 3
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366750"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000009"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd35213836673c"
+      },
+      "sku": "CAS-007",
+      "name": "Gabinete ATX",
+      "price": 900,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366751"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000010"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd35213836673d"
+      },
+      "sku": "PSU-008",
+      "name": "Fuente de Poder 750W",
+      "price": 850,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366752"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000011"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd35213836673e"
+      },
+      "sku": "CPU-009",
+      "name": "Procesador Core i7",
+      "price": 3200,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366753"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000012"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd35213836673f"
+      },
+      "sku": "MBO-011",
+      "name": "Motherboard Z690",
+      "price": 1800,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366754"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000013"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366740"
+      },
+      "sku": "FAN-012",
+      "name": "Cooler CPU",
+      "price": 400,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366755"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000014"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366741"
+      },
+      "sku": "MIC-013",
+      "name": "Micrófono Condensador",
+      "price": 1100,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366756"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000015"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366742"
+      },
+      "sku": "PAD-014",
+      "name": "Mousepad XL",
+      "price": 150,
+      "quantity": 2
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366757"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000016"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366743"
+      },
+      "sku": "CHR-015",
+      "name": "Silla Gamer",
+      "price": 2800,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366758"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000017"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366744"
+      },
+      "sku": "DSK-016",
+      "name": "Escritorio Eléctrico",
+      "price": 3500,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd352138366759"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000018"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366745"
+      },
+      "sku": "LT-017",
+      "name": "Luz LED RGB",
+      "price": 200,
+      "quantity": 5
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ccdefcfd35213836675a"
+  },
+  "customerId": {
+    "$oid": "670000000000000000000019"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6902ccdefcfd352138366746"
+      },
+      "sku": "CAB-018",
+      "name": "Set de Cables",
+      "price": 180,
+      "quantity": 1
+    }
+  ],
+  "status": "active",
+  "updatedAt": {
+    "$date": "2025-10-30T02:26:38.219Z"
+  }
+}]
