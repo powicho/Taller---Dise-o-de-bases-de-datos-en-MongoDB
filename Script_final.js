@@ -23,7 +23,6 @@ db.customers.drop();
 db.carts.drop();
 db.orders.drop();
 
-print(">>> Limpieza completada. Creando estructura de la base de datos...");
 
 // ====================================================================================
 // 1. CREACIÓN DE COLECCIONES CON VALIDACIÓN ($jsonSchema)
@@ -176,7 +175,6 @@ db.createCollection("orders", {
 // esenciales para evitar escaneos de colección completos (COLLSCAN) en operaciones
 // de lectura frecuentes, mejorando drásticamente el rendimiento.
 // ====================================================================================
-print("\nCreando índices para optimizar consultas...");
 
 // --- Índices para `customers` ---
 // Índice único en `email` para garantizar que no haya correos duplicados y para

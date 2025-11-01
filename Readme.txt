@@ -5,16 +5,24 @@ Este proyecto contiene el modelado, la creación, y el análisis de una base de 
 ## Contenido y Estructura de la Entrega
 
 *   /script_final.js:
+  Script de configuración de la ESTRUCTURA. Al ejecutarse en `mongosh`, crea las colecciones, aplica las reglas de validación (`$jsonSchema`) y establece los índices de rendimiento. 
+  No contiene el dataset completo para mantener la legibilidad.
     Script principal que se debe ejecutar en `mongosh`. Este archivo realiza toda la configuración inicial de la base de datos:
     1.  Crea las tres colecciones (`customers`, `carts`, `orders`) con sus reglas de validación `$jsonSchema`.
     2.  Establece todos los índices de rendimiento, incluyendo el índice TTL.
     3.  Opcionalmente, contiene comentado el código para insertar el dataset de prueba.
 
-*   /Colecciones/:
+*   /Colecciones exportadas de mongo db/:
     Esta carpeta contiene las exportaciones en formato JSON de las tres colecciones principales, pobladas cada una con 20 documentos de prueba. Estos archivos pueden ser importados a través de MongoDB Compass o `mongoimport` para poblar la base de datos después de ejecutar el script de setup.
 
+*   /Inserccion de Collecciones manual/:
+    Esta carpeta contiene tres scripts `.js` separados, uno para cada colección. Su único propósito es poblar la base de datos con los 20 documentos de prueba. **Deben ejecutarse DESPUÉS del `script_final.js`**.
+
 *   /documentacion de consultas/:
-    Esta carpeta contiene 5 scripts `.js` separados. Cada uno corresponde a una de las consultas requeridas por la tarea. Incluyen el comando de la consulta, el resultado completo del comando `.explain()` y un análisis detallado del plan de ejecución y el rendimiento.
+    Esta carpeta contiene 5 scripts `.js` separados. Cada uno corresponde a una de las consultas requeridas. Incluyen el comando de la consulta, el resultado completo del comando `.explain()` y un análisis detallado del plan de ejecución y el rendimiento.
+
+*   /Validaciones/:
+    Esta carpeta contiene 3 scripts `.js` separados. Cada uno corresponde a una de las validaciones. Estas validaciones son sacadas o copiadas directamente de cada una de las colecciones de mongodb
 
 *   `Informe_Fichas_UIF.pdf`:
     Este documento contiene el análisis de diseño para cada wireframe (Perfil, Carrito, Pedido), justificando las decisiones de modelado como `Embed vs. Reference`, la atomicidad y la cardinalidad.
