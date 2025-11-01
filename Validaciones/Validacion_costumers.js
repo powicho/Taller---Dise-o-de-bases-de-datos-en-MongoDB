@@ -1,4 +1,3 @@
-
 {
   $jsonSchema: {
     bsonType: 'object',

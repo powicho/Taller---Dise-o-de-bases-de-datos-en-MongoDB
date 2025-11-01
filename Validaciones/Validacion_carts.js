@@ -2,46 +2,56 @@
   $jsonSchema: {
     bsonType: 'object',
     required: [
-      'name',
-      'email',
-      'createdAt'
+      'customerId',
+      'items',
+      'status',
+      'updatedAt'
     ],
     properties: {
-      name: {
-        bsonType: 'string',
-        description: 'debe ser una cadena y es obligatorio'
+      customerId: {
+        bsonType: 'objectId'
       },
-      email: {
-        bsonType: 'string',
-        pattern: '^.+@.+\\..+$',
-        description: 'debe ser un email válido y es obligatorio'
-      },
-      addresses: {
+      items: {
         bsonType: 'array',
-        description: 'debe ser un array de direcciones',
+        maxItems: 100,
         items: {
           bsonType: 'object',
           required: [
-            'alias',
-            'street',
-            'city'
+            'productId',
+            'sku',
+            'name',
+            'price',
+            'quantity'
           ],
           properties: {
-            alias: {
+            productId: {
+              bsonType: 'objectId'
+            },
+            sku: {
               bsonType: 'string'
             },
-            street: {
+            name: {
               bsonType: 'string'
             },
-            city: {
-              bsonType: 'string'
+            price: {
+              bsonType: 'double'
+            },
+            quantity: {
+              bsonType: 'int',
+              minimum: 1
             }
           }
         }
       },
-      createdAt: {
-        bsonType: 'date',
-        description: 'debe ser una fecha y es obligatorio'
+      status: {
+        'enum': [
+          'active',
+          'abandoned',
+          'converted'
+        ]
+      },
+      updatedAt: {
+        bsonType: 'date'
       }
     }
   }
